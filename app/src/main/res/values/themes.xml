@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Custom Application Theme -->
+    <style name="Theme.VotersManagementSystem" parent="Theme.MaterialComponents.Light">
+        <!-- Set the primary color for the app -->
+        <item name="colorPrimary">#4CAF50</item>  <!-- Green color as primary color -->
+        <item name="colorPrimaryDark">#388E3C</item>  <!-- Dark Green -->
+        <item name="colorAccent">#FF5722</item>  <!-- Accent color for buttons, etc. -->
+
+        <!-- Customize text styles -->
+        <item name="android:textColorPrimary">#FFFFFF</item> <!-- White text for primary text -->
+        <item name="android:textColorSecondary">#B0BEC5</item> <!-- Light grey for secondary text -->
+
+        <!-- Customize button style -->
+        <item name="android:buttonStyle">@style/CustomButton</item>
+
+        <!-- ActionBar Style -->
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Custom Button Style -->
+    <style name="CustomButton"><!-- Use accent color -->
+        <item name="android:textColor">#FFFFFF</item> <!-- White text on buttons -->
+
+    </style>
+
+</resources>

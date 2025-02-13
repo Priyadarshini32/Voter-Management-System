@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:fontFamily="@font/acme"
+        android:text="Voters Management System"
+        android:textAlignment="center"
+        android:textColor="#711054"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:fontFamily="@font/acme"
+        android:hint="Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:fontFamily="@font/acme"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+
+    <!-- Filter Section -->
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <!-- Analyze Button -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/acme"
+        android:text="Register"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

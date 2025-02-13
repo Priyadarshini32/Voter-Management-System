@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:text="Voter Analysis"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="#711054"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/analysisResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analysis results will appear here..."
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:padding="10dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_gravity="center"
+        android:padding="10dp" />
+
+</LinearLayout>
